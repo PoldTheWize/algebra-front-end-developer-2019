@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Drawing</title>
+    </head>
+    <body>
+        <canvas style="padding:2rem;" id="canvas" height="500" width="400"></canvas>
+        <script>
+            let canvas=document.getElementById("canvas");
+            let ctx=canvas.getContext("2d");
+
+            ctx.fillStyle="darkgreen";
+            ctx.fillRect(0,0,canvas.width, canvas.height)
+            
+            ctx.fillStyle="#d5d5d5";
+            ctx.fillRect(75,200,250,300);
+            
+            ctx.beginPath();
+            ctx.arc(200,200,125,0,Math.PI *1.4);
+            ctx.fillStyle="#d5d5d5";
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(150,200,40,0,Math.PI *1.6);
+            ctx.fillStyle="black";
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(250,200,40,0,Math.PI *1.4);
+            ctx.fillStyle="black";
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(150,200,15,0,Math.PI *1.6);
+            ctx.fillStyle="white";
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(250,200,15,0,Math.PI *1.4);
+            ctx.fillStyle="white";
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(200,250,70,0,Math.PI *1);
+            ctx.fillStyle="black";
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.arc(200,230,15,0,Math.PI *2);
+            ctx.fillStyle="red";
+            ctx.fill();
+            ctx.closePath();
+
+            ctx.fillStyle="black";
+            ctx.fillRect(75,100,250,50);
+
+            ctx.beginPath();
+            ctx.moveTo(175,400);
+            ctx.lineTo(215,400);
+            ctx.lineTo(200,350);
+            ctx.fillStyle="black";
+            ctx.fill();
+            ctx.closePath();
+        </script>
+    </body>
+</html>

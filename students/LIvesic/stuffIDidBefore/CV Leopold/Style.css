@@ -1,0 +1,141 @@
+html,body{
+	height:100%;
+	width:100%;
+	font-family:Georgia, serif;
+	background-color:#DFDFDF;
+}
+.navbar-nav li{
+	padding:10px;
+}
+.about h3{
+	padding-top:1rem;
+}
+.txt{
+	padding-top:4.1rem;
+	padding-left:5rem;
+}
+.list{
+	text-align:left;
+	font-style:bold;
+}
+.subList{
+	padding:10px;
+	padding-left:1.5rem;
+}
+.mySelf{
+	max-width:100%;
+	height:auto;
+	margin-top:5.1rem;	
+}
+.pic{
+	max-height:100%;
+	max-width:100%;
+	
+}
+.art{
+	background-color:#3f3f3f;
+	color:#d5d5d5;
+}
+.carousel {
+	padding-top:1rem;
+}
+.card{
+	height:38rem;
+	width:auto;
+}
+.card h1{
+	position:sticky;
+}
+.card button{
+	background-color:#3f3f3f;
+	border:none;
+	color:#d5d5d5;
+}
+.padding{
+	padding:2rem;
+}
+.linkButton {
+    background-color:#3f3f3f;
+    border: none;
+    color:#d5d5d5;
+    padding:0.6rem;
+    text-align: center;
+    cursor: pointer;
+	margin:1rem;
+}
+footer{
+	background-color:#3f3f3f;
+	color:#d5d5d5;
+	padding-top: 1rem;
+}
+.info{
+	margin-top:1.8rem;
+	margin-bottom:5rem;
+}
+.info img{
+	height:100px;
+	width:100px;
+	margin-top:1rem;
+}
+.contact p{
+	text-align: justify;
+	padding-bottom:1rem;
+}
+.contact input{
+	border:none;
+	border-bottom:2px solid #696969;
+	background-color:#3f3f3f;
+	width:100%;
+	color:#d5d5d5;
+}
+.contact textarea{
+	border:none;
+	border-bottom:2px solid #696969;
+	background-color:#3f3f3f;
+	width:100%;
+	color:#d5d5d5;
+}
+
+@media (max-width: 768px) {
+	.contact h3{
+		margin-right:37px;
+		margin-bottom:10px;
+	}
+	.txt{
+		padding-top:2rem;
+		padding-left:1rem;
+	}
+	.mySelf{
+		padding-top:1rem;
+		padding-left:1rem;
+	}
+}
+
+/* galery */
+
+.picture{
+	width:10rem;
+	padding:1rem;
+}
+.widePicture{
+	height:13.4rem;
+	padding:1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

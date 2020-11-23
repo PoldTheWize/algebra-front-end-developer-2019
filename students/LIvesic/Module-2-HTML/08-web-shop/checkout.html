@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkout | Web Shop</title>
+    </head>
+    <body>
+        <form action="success.html" method="GET">
+            <label>First name:<br><input type="text" name="first_name" placeholder="First Name" required></label><br>
+            <br>
+            <label>Last name:<br><input type="text" name="last_name" placeholder="Last Name" required></label><br>
+            <br>
+            <label>Email:<br><input type="email" name="email" placeholder="example@.com" required></label><br>
+            <br>
+            <label>Phone:<br><input type="tel" name="telephone" placeholder="+385 1234 567" required></label><br>
+            <br>
+            <label>Address line 1:<br><input type="text" name="address1" placeholder="Address" required></label><br>
+            <br>
+            <label>Address line 2:<br><input type="text" name="address2" placeholder="Address"></label><br>
+            <br>
+            <label>City:<br><input type="text" name="city" placeholder="City" required></label><br>
+            <br>
+            <label>Zip code:<br><input type="text" name="zip_code" placeholder="" required></label><br>
+            <br>
+            <label>Country:<br>
+                <select name="country">
+                    <option selected value disabled>Select country</option>
+                    <option value="hr">Croatia</option>
+                    <option value="rs">Serbia</option>
+                    <option value="ba">Bosnia and Hercegovina</option>
+                    <option value="si">Slovenia</option>
+                    <option value="me">Montenegro</option>
+                    <option value="mk">North Macedonia</option>
+                    <option value="al">Albania</option>
+                </select>
+            </label><br>
+            <br>
+            <label required>Method:<br><br>
+                <input type="radio" name="credit">Credit Card
+                <input type="radio" name="debit">Debit Crad
+                <input type="radio" name="paypal">Paypal
+            </label><br>
+            <br>
+            <label>Card Hold:<br><input type="text" name="card_hold" required></label><br>
+            <br>
+            <label>Card Number:<br><input type="number" name="card_number" required></label><br>
+            <br>
+            <label>Card Expiration Month:<br><input type="month" name="expiration_date"></label><br>
+            <br>
+            <button type="submit">Buy</button>
+        </form>
+    </body>
+</html>

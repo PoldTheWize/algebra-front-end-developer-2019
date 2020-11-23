@@ -3,9 +3,27 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create an account | Web Shop</title>
     </head>
     <body>
-        <a href="products.html"></a>
+        <h1>Web shop</h1>
+        <h3>Create an account</h3>
+        <p>Create an account to purchase items on our web shop!</p>
+        <form action="login.html" method="GET">
+            <label>First name:<br><input type="text" name="first_name" placeholder="First Name" required></label><br>
+            <br>
+            <label>Last name:<br><input type="text" name="last_name" placeholder="Last Name" required></label><br>
+            <br>
+            <label>Email:<br><input type="email" name="email" placeholder="example@.com" required></label><br>
+            <br>
+            <label>Phone:<br><input type="tel" name="telephone" placeholder="+385 1234 567" required></label><br>
+            <br>
+            <label>Password (min 6 characters):<br><input type="password" name="password" placeholder="******" required minlength="6"></label><br>
+            <br>
+            <label><input type="checkbox" name="terms" required checked>I agree to the terms of agreement</label><br>
+            <br>
+            <button type="submit">Create</button>
+        </form>
     </body>
 </html>

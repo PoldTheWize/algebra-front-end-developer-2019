@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vježba 19</title>
+</head>
+<body>
+    <div>Kontakt</div>
+
+    <div>
+        <div>Ulica 1234, 31000 Osijek</div>
+        <div><a href="tel:+385123456789">Telefon +385 1234 567 89</a></div>
+        <div><a href="mailto:test@example.com">Email test@example.com</a></div>
+    </div>
+
+    <form>
+        <div>
+            <div>
+                <label for="full-name">Ime i prezime</label>
+            </div>
+            <div>
+                <input id="full-name" type="text" name="full_name">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="dob">Datum rođenja</label>
+            </div>
+            <div>
+                <input id="dob" type="date" name="dob">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input id="email" type="email" name="email">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="phone">Broj telefona</label>
+            </div>
+            <div>
+                <input id="phone" type="tel" name="phone">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="type">Vrsta upita</label>
+            </div>
+            <div>
+                <select id="type" name="type">
+                    <option disabled selected>Molimo odaberite</option>
+                    <option value="membership">Članstvo</option>
+                    <option value="other">Upit</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="note">Bilješka</label>
+            </div>
+            <div>
+                <textarea id="note" name="note"></textarea>
+            </div>
+        </div>
+        <div>
+            <button type="submit">Pošalji</button>
+        </div>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vježba 19</title>
+</head>
+<body>
+    <div>Atletski klub Trkači</div>
+
+    <div>Kratki opis, tko smo, što smo.</div>
+
+    <div>
+        <div>Kratki popis članova</div>
+
+        <div>
+            <div>- Član 1</div>
+            <div>- Član 2</div>
+            <div>- Član 3</div>
+        </div>
+
+        <div><a href="members.html">Svi članovi</a></div>
+    </div>
+
+    <div>
+        <div>Top 5 rekorda na 100 m</div>
+
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Vrijeme</th>
+                <th>Član</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>11.10</td>
+                <td>Pero Perić</td>
+            </tr>
+        </table>
+
+        <div><a href="records.html">Svi rekordi</a></div>
+    </div>
+
+    <div>
+        <div>Pridruži nam se!</div>
+
+        <div><a href="contact.html">Popuni upisnicu</a></div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vježba 19</title>
+</head>
+<body>
+    <div>Članovi</div>
+
+    <div>
+        <div>
+            <div>
+                <div>Član 1</div>
+                <div>Datum rođenja</div>
+                <div>Datum učlanjivanja</div>
+                <div>Interesi</div>
+                <div>Najbolje vrijeme</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vježba 19</title>
+</head>
+<body>
+    <div>Rekordi na 100 m</div>
+
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Vrijeme</th>
+            <th>Član</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>11.10</td>
+            <td>Pero Perić</td>
+        </tr>
+    </table>
+</body>
+</html>

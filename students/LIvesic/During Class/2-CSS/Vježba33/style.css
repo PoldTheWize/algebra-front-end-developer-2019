@@ -1,0 +1,11 @@
+body{
+    background: 
+    url('fire.png') no-repeat fixed center 30%/18%, 
+    url('pattern.png'), 
+    url('blossom.jpg') no-repeat fixed center/cover;
+    color: #d5d5d5;
+} 
+h1{
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+}

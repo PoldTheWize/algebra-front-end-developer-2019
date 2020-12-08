@@ -1,0 +1,9 @@
+.odd-stripes li:nth-child(odd){
+    background: yellow;
+}
+.last-stripe li:last-child{
+    background: turquoise;
+}
+.lastThree-stripes li:nth-child(n + 3){
+    background: tomato;
+}

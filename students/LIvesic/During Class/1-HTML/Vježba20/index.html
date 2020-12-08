@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color: thistle;
+        }
+        .shoutbox-message{
+            color:rgb(4, 0, 53);
+        }
+        .shoutbox-message-list{
+            /*
+            background-color
+            font-size
+            font-family
+            font-weight
+            padding
+            margin
+            */
+            margin-top: 8px;
+            margin-bottom: 8px;
+            color: #222;
+            font-family: sans-serif;
+            background-color: rgb(165, 163, 172);
+            padding: 1rem;
+        }
+        .user_label{
+            padding: 2rem;
+        }
+        .text_message{
+            margin: 2rem;
+            border: 3px dashed rgb(2, 0, 92);
+            background-color: wheat;
+        }
+        .textarea{
+            border: 1px solid red;
+            background-color: black;
+            color: whitesmoke;
+        }
+        .btn button{
+            background-color: tomato;
+            border-collapse: collapse;
+            border: 2px sold blue;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" action="">
+        <label for="username" class="user_label">
+            Korisnično ime:
+        </label><br>
+        <input id="username" name="username" type="text" required class="text_message">
+        <br>
+        <label for="message">
+            Poruka:
+        </label><br>
+        <textarea id="message" name="message" required class="textarea"></textarea>
+        <div class="btn">    
+            <button class="button" type="submit">Pošalji</button>
+        </div>
+    </form>
+    <div class="shoutbox-message-list">
+        <div class="shoutbox-message">
+            <div>Ivo</div>
+            <div>pozz</div>
+            <div>26.11.2020. 18:26</div>
+        </div>
+        <div class="shoutbox-message">
+            <div>Marko</div>
+            <div>pozz</div>
+            <div>26.11.2020 19:26</div>
+        </div>
+    </div>
+</body>
+</html>

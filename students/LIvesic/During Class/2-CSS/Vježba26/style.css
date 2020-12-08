@@ -1,0 +1,20 @@
+.red {
+    color: red;
+}
+
+.big-title {
+    font-size: 40px;
+}
+
+.small-title {
+    font-size: 20px;
+}
+
+.featured-text {
+    color: green;
+    font-weight: bold;
+}
+
+#pjesme {
+    color: pink;
+}

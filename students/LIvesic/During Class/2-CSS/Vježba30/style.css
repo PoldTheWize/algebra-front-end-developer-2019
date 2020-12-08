@@ -1,0 +1,22 @@
+html{
+    background-color: black;
+}
+.ipsum{
+    font-size: 3rem;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 20px;
+    margin-left: 550px;
+    margin-right: 600px;
+    margin-top: 250px;
+    padding-bottom: 30px;
+    background-color: teal;
+    color: white;
+
+    text-shadow: 
+        2px 2px 0px rgb(1, 235, 235),
+        4px 4px 0px rgb(0, 215, 215),
+        6px 6px 0px rgb(0, 195, 195),
+        8px 8px 0px rgb(0, 175, 175),
+        10px 10px 0px rgb(0, 155, 155);
+}

@@ -1,0 +1,13 @@
+.main-nav ul{
+    padding: 8px;
+    background-color: #555;
+    text-align: right;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav a{
+    color: #ddd;
+    text-decoration: none;
+    padding: 8px;
+}

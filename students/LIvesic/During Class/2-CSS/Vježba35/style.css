@@ -1,0 +1,11 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0;
+    margin: 40px auto;
+    border: 20px dashed white;
+    box-shadow: 
+        -10px -10px 4px 4px lightblue,
+        10px 10px 4px 4px blue;
+    
+}

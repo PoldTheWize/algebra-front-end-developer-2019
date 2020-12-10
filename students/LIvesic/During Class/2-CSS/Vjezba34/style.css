@@ -1,0 +1,24 @@
+div{
+    background-color: darkblue;
+    color: darkgray;
+    margin: 10px 20px 30px 40px;
+}
+/*div:nth-child(even){
+    opacity: 0.5;
+}*/
+div:nth-child(1){
+    width: 100px;
+    height: 100px;
+}
+div:nth-child(2){
+    border: 2px dotted red;
+}
+div:nth-child(3){
+    border: 2px solid green;
+    padding: 10px 20px 30px 40px;
+}
+div:nth-child(4){
+    box-shadow: 
+    4px 8px 8px 8px darkblue,
+    inset 0px 0px 8px 2px red;
+}

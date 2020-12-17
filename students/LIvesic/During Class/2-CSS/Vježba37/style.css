@@ -1,0 +1,96 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    background: #f0f0f0;
+    color: #101010;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+}
+
+.wrapper {
+    width: 352px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #101010;
+    opacity: 0.75;
+}
+.nav-link.active {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav ul {
+    padding: 0;
+}
+.nav ul li {
+    display: inline-block;
+    margin-right: 48px;
+}
+
+.cookies{
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: white;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+
+.cookies-accept{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.cookies-decline{
+    font-style: italic;
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.footer {
+    opacity: 0.75;
+    font-style: italic;
+    font-size: 14px;
+    margin: 48px 0;
+}
+
+.link {
+    color: #101010;
+    text-decoration: none;
+}
+.link-label {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.article-content p {
+    line-height: 1.5;
+    margin: 1.5em 0;
+}
+
+.article-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 48px 0;
+}
+
+.article-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.header {
+    margin: 48px 0;
+}
+
+.main {
+    margin: 64px 0 96px 0;
+}

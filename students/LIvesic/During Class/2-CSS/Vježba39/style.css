@@ -1,0 +1,16 @@
+.col-1-4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: right;
+}
+.col-2-4{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+    margin: 16px;
+}
+.clear{
+    clear: both;
+}

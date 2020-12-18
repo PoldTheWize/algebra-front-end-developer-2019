@@ -1,0 +1,94 @@
+* { box-sizing: border-box; }
+body { margin: 0; }
+html{
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: normal;
+}
+.wrapper {
+    padding: 1rem;
+    height: 100vh;
+}
+.wrapper div {
+    padding: 0.5rem;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+    line-height: 42px;
+}
+.search{
+    margin-left: 900px;
+}
+.button-search{
+    background-color: #000;
+    color: #eee;
+    font-size: 16px;
+    line-height: 100%;
+}
+.error{
+    opacity: 70%;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container div:nth-child(1){/*preporučeno ne koristiti nth child na ovakav način*/
+    font-size: 80px;
+    line-height: 104px;
+}
+.flex-container div:nth-child(2){
+    font-size: 32px;
+    line-height: 42px;
+}
+.flex-container div:nth-child(3){
+    font-size: 48px;
+    line-height: 62px;
+}
+.flex-container div:nth-child(4){
+    font-size: 32px;
+    line-height: 42px;
+}
+/*
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.error-page {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+.error-emoji {
+    font-size: 80px;
+    margin-bottom: 48px;
+}
+.error-code {
+    font-size: 32px;
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+.error-title {
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+.error-subtitle {
+    font-size: 32px;
+}
+*/

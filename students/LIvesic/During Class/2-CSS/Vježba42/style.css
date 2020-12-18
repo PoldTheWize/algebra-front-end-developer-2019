@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+body{margin: 0;}
+.wrapper{
+    border: 1px solid black;
+    padding: 1rem;
+    min-height: 100vh;
+}
+.wrapper div{
+    background: #eee;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-item{
+    width: 30%;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,30 @@
+.wraper{
+    margin: 1rem;
+}
+.img{
+    width: 50%;
+}
+.text{
+    text-align: center;
+    margin-right: 50%;
+}
+@media screen and (max-width: 500px){
+    h1{
+        text-align: center;
+    }
+    .img {
+        width: 100%;
+    }
+    .text{
+        text-align: center;
+        margin-right: 0px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 750px){
+    h1{
+        margin-left: 25%;
+    }
+    .img {
+        width: 75%;
+    }
+}

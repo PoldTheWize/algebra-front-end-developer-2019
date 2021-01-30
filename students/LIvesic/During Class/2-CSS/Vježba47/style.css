@@ -1,0 +1,61 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-left: 90px;
+}
+.heart {
+    background-color: #000;
+    height: 100px;
+    margin: 200px;
+    transform: rotate(-45deg);
+    width: 100px;
+}
+
+.heart::before{
+    content: "";
+    background-color: #000;
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    transform: translate(0px, -40px);
+    width: 100px;
+}
+.heart::after {
+    content: "";
+    background-color: #000;
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    transform: translate(40px, 0px);
+    width: 100px;
+}
+
+.heart:hover::before {
+    top: -15px;
+    left: 0;
+    background-color: #f00;
+}
+
+.heart:hover::after {
+    left: 15px;
+    top: 0;
+    background-color: #f00;
+}
+
+.heart:hover{
+    background-color: #f00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

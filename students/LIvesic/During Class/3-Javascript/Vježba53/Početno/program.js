@@ -1,0 +1,33 @@
+var rows = prompt('How many rows for your multiplication table?');
+var cols = prompt('How many columns for your multiplication table?');
+
+if (rows == '' || rows == null) rows = 10;
+if (cols == '' || cols == null) cols = 10;
+
+// Create table
+/*  
+@author John Doe
+*/
+
+function createTable(rows, cols) {
+  var j = 1;
+  var result = "<table border='1' width='500' cellspacing='0' cellpadding='5'>";
+
+  for (i = 1; i <= rows; i++) {
+    result = result + '<tr>';
+
+    while (j <= cols) {
+      result = result + '<td>' + i * j + '</td>';
+      j = j + 1;
+    }
+
+    result = result + '</tr>';
+    j = 1;
+  }
+
+  result = result + '</table>';
+  document.write(result);
+  console.log(result);
+}
+
+createTable(rows, cols);

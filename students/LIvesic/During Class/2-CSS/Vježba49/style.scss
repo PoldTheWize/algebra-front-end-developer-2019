@@ -1,0 +1,18 @@
+$red-light: #f88;
+$red: #f00;
+$red-dark: #a00;
+
+$font-serif: 'Times New Roman', serif;
+$font-sans: 'Verdana', sans-serif;
+
+body{
+    color: $red-dark;
+    font-family: $font-sans;
+}
+h1{
+    color: $red;
+    font-family: $font-serif;
+}
+h2,h3,h4,h5{
+    color: $red-light;
+}

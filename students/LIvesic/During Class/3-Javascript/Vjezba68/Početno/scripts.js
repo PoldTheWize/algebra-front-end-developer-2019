@@ -11,7 +11,7 @@ const quotes = [
 	'Bitchin.'
 ];
 
-var proto1 = Object.getPrototypeOf(caracter);
+var proto1 = Object.getPrototypeOf(character);
 var proto2 = Object.getPrototypeOf(proto1);
 
 function getQuote(){
@@ -20,5 +20,8 @@ function getQuote(){
 	);
 	return quotes[index];
 }
-proto1.getQuote = getQuote;
+proto1.getQuote = getQuote; //stavljanje funkcije getQuote u character objekt
 
+console.log(getQuote()); //funkcija getQuote
+console.log(proto1.getQuote(), "1"); //funkcija getQuote unutar objekta character
+console.log(proto2, "2");// null
